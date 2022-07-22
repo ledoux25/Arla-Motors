@@ -2,7 +2,7 @@ body
 {
     height: 100vh;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Quicksand', sans-serif;
 
 }
 .navbar
@@ -81,7 +81,7 @@ a:hover{
     left: 35%;
     top: 35%;
     transform: rotate(40deg);
-    animation: rotate 10s infinite;
+    animation: rotate 15s infinite;
 }
 .engine2{
     height: 200px;
@@ -91,7 +91,7 @@ a:hover{
     background-image: url(image/engineering_127px2.png);
     background-size: cover;
     position: absolute;
-    animation: rotate2 10s infinite;
+    animation: rotate2 15s  infinite ;
 }
 @keyframes rotate2{
     0%{
@@ -113,14 +113,17 @@ a:hover{
 }
 .text-sec-1{
     width: 50%;
-    height: 75%;
+    height: 70%;
     left: 40%;
-    top: 25%;
+    top: 20%;
     position: absolute;
-    border-left: 1px solid black;
-    box-shadow: -1px 0px 30px 2px rgba(0, 0, 0, 0.205);
+  
+    box-shadow: -1px 0px 30px 2px rgba(0, 0, 0, 0.301);
     text-justify:none;
 
+}
+.text-sec-1 h3{
+    margin: 20px;
 }
 .text-sec-1 h1{
     text-align: center;
@@ -136,6 +139,36 @@ a:hover{
 
     position: absolute;
     top: 30%;
-    
+}
 
+.section2{
+    height: 80vh;
+    background-color: #28096381;
+    position: relative;
+}
+.ima-sec-2{
+    width: 50%;
+    height: 50%;  
+    position: relative;
+    right: -50%;
+    top: 20%;
+    background-image: url(image/7198180.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-sec-2{
+    width: 40%;
+    height: 40%;
+    left: 5%;
+    top: 35%;
+    position: absolute;
+    text-justify:none;
+    color: white;
+    padding-right: 150px;
+    border-right: 1px dotted white;
+}
+h3 span{
+    color: #290963;
 }
