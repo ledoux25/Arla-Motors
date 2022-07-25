@@ -12,6 +12,7 @@ body
     overflow: hidden;
     width: 100%;
     position: relative;
+    background-color: white;
 }
 
 .logo
@@ -19,13 +20,14 @@ body
     width: 20%;
     height: 100%;
     background-image: url(image/LOGO-02.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     position: absolute;
  
 
 }
-a{
+.a{
     right: -50%;
     text-decoration: none;
     margin: 0px 10px;
@@ -37,7 +39,7 @@ a{
     height: 100%;
     
 }
-a::after{
+.a::after{
     content: "";
     display: inline-block;
     position: absolute;
@@ -51,18 +53,18 @@ a::after{
 
 }
 
-a:hover::after{
+.a:hover::after{
     width: 100%;
 }
 
-a:hover{
+.a:hover{
     background-color: rgba(0, 0, 0, 0.055);
     padding: 37px 0;
     transition: 1s;
     position: relative;
 }
 .section1{
-    height: 90vh;
+    height: 100vh;
 }
 .ima-sec-1{
     width: 50%;
@@ -117,7 +119,7 @@ a:hover{
     left: 40%;
     top: 20%;
     position: absolute;
-  
+    background-color: white;
     box-shadow: -1px 0px 30px 2px rgba(0, 0, 0, 0.301);
     text-justify:none;
 
@@ -129,8 +131,10 @@ a:hover{
     text-align: center;
     position: relative;
     top: 2%;
-    font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    /* font-family: "Trirong", serif; */
+     font-family: "Sofia", sans-serif; 
+    /* font-family: 'Pacifico', cursive; */
     font-size: xx-large;
     color: #421496;
 }
@@ -142,7 +146,8 @@ a:hover{
 }
 
 .section2{
-    height: 80vh;
+    height: 40vh;
+    width: 70%;
     background-color: #28096381;
     position: relative;
 }
@@ -162,12 +167,13 @@ a:hover{
     width: 40%;
     height: 40%;
     left: 5%;
-    top: 35%;
+    top: 20%;
     position: absolute;
     text-justify:none;
     color: white;
     padding-right: 150px;
     border-right: 1px dotted white;
+    font-size: small;
 }
 h3 span{
     color: #421496;
@@ -176,22 +182,39 @@ h3 span{
 .section3{
     height: 90vh;
     position: relative;
+
 }
+
+.section4{
+    height: 90vh;
+    position: relative;
+    top: 50vh;
+}
+
 .article{
     position: absolute;
     width: 20%;
     height: 60%;
     box-shadow: -1px 0px 30px 2px rgba(0, 0, 0, 0.301);
     border-radius: 5%;
+    overflow: hidden;
 }
 .article1{
     position: absolute;
     left: 4%;
 }
+.article .circle{
+    padding-bottom: 10px;
+}
 .article1 .image{
     background-image: url(image/1.png);
+    position: relative;
     width: 100%;
     height: 50%;
+    top: -7%;
+    left: -10%;
+
+
     background-size: cover;
 }
 .article1 .description{
@@ -206,8 +229,11 @@ h3 span{
 }
 .article2 .image{
     background-image: url(image/2.png);
-    width: 100%;
+    position: relative;
+    width: 80%;
     height: 50%;
+    /* top: 7%; */
+    left: 10%;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -225,7 +251,7 @@ h3 span{
     background-image: url(image/3.png);
     width: 100%;
     height: 50%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -241,10 +267,13 @@ h3 span{
 }
 .article4 .image{
     background-image: url(image/4.png);
-    width: 100%;
+    width: 70%;
     height: 50%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 10%;
 }
 .article4 .description{
     position: absolute;
@@ -259,11 +288,13 @@ h3 span{
 }
 .article5 .image{
     background-image: url(image/5.png);
-    width: 100%;
+    width: 70%;
     height: 50%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+    left: 15%;
 }
 .article5 .description{
     position: absolute;
@@ -286,7 +317,7 @@ h3 span{
 .article6 .description{
     position: absolute;
     top: 50%;
-    margin: 0 15px;
+    padding: 0 5px;
 }
 .article7{
     position: absolute;
@@ -295,14 +326,18 @@ h3 span{
 }
 .article7 .image{
     background-image: url(image/7.png);
-    width: 100%;
+    width: 50%;
     height: 50%;
-    background-size: cover;
+    background-size: contain;
+    position: relative;
+    left: 20%;
+    top: 15%;
+    background-repeat: no-repeat;
 }
 .article7 .description{
     position: absolute;
     top: 50%;
-    margin: 0 15px;
+    padding: 0 15px;
 }
 
 .article8{
@@ -311,15 +346,21 @@ h3 span{
     top:  75%;
 }
 .article8 .image{
-    background-image: url(image/8.png);
+    background-image: url(image/9.png);
     width: 100%;
     height: 50%;
-    background-size: cover;
+    background-size: contain;
+    position: relative;
+    left: 25%;
+
+    background-repeat: no-repeat;
 }
 .article8 .description{
     position: absolute;
     top: 50%;
     margin: 0 15px;
+
+    padding: 15px 0;
 }
 
 .article:hover
@@ -328,5 +369,164 @@ h3 span{
     transform: scale(1.07);
     border: #421496 1px solid;
     box-shadow: 0 3px 0 1px #421496 ;
+    cursor: pointer;
+}
+.article:hover hr{
+    color: white;
+    border-color: black;
+    border-top: 2px;
+    z-index: 12;
+    position: relative;
+}
+.circle{
+    background-color: #421496;
+    height: 50%;
+    width: 100%;
+    animation: travel 5s ease-in-out infinite;
+    position: absolute;
+    left: -85%;
+    z-index: -55;
+}
+ 
+.article:hover .circle
+{
+    transition: 0.5s;
+    position: absolute;
+    left: 0%;
+    cursor: pointer;
+}
+.article:hover .description
+{
+    transition: 0.5s;
+    /* color: white;
+    background-color: #4114965d; */
+    width: 100%;
+}
+.section4{
+    height: 90vh;
+    width: 100%;
+
+}
+.service1{
+    height: 30%;
+    width: 60%;
+    background-color: #28096381;
+    color: white;
+    font-family: "Trirong", serif; 
+    font-size: xx-large;
+    text-align: center;
+}
+.service2
+{
+    height: 30%;
+    width: 60%;
+    background-color: #280963;
+    position: relative;
+    top: 1%;
+    left: 40%;
+    color: white;
+    font-family: "Trirong", serif; 
+    font-size: xx-large;
+    text-align: center;
+}
+.service3
+{
+    height: 30%;
+    width: 60%;
+    background-color: #280963;
+    position: relative;
+    top: 2%;
+    color: white;
+     font-family: "Trirong", serif; 
+    font-size: xx-large;
+    text-align: center;
+}
+.sell{
+    background-image: url(image/sell.png);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 40vh;
+    position: absolute;
+
+}
+.sell1{
+    background-image: url(image/sell2.png);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 40vh;
+    position: absolute;
+    left: 20%;
+
+}
+.repair{
+    background-image: url(image/repair1.png);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 40vh;
+    position: absolute;
+    top : 5%;
+    left: 60%;
+}
+.repair1{
+    background-image: url(image/repair2.png);
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 40vh;
+    position: absolute;
+    top :5%;
+    left: 75%;
+}
+.piece{
+    background-image: url(image/Tools_127px.png);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 40vh;
+    position: absolute;
+    top : 90%;
+    left: 60%;
+}
+.piece2{
+    background-image: url(image/hammer_127px.png);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 40vh;
+    position: absolute;
+    top : 90%;
+    left: 80%;
+}
+footer h2{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+footer span{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+
+}
+footer{
+    background-color: #012242;
+    position: relative;
+    height: 80vh;
+}
+.fimg
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.fimg img:hover {
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+a:hover{
     cursor: pointer;
 }
