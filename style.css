@@ -7,12 +7,14 @@ body
 }
 .navbar
 {
-    height: 18%;
+    height: 15%;
     box-shadow: 0px 1px 5px  black;
     overflow: hidden;
     width: 100%;
     position: relative;
     background-color: white;
+    position: sticky;
+    z-index: 200000;
 }
 
 .logo
@@ -24,6 +26,7 @@ body
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
+    left: -5%;
  
 
 }
@@ -66,6 +69,7 @@ body
 .section1{
     height: 100vh;
 }
+
 .ima-sec-1{
     width: 50%;
     height: 90%;
@@ -124,6 +128,8 @@ body
     text-justify:none;
 
 }
+
+
 .text-sec-1 h3{
     margin: 20px;
 }
@@ -146,8 +152,8 @@ body
 }
 
 .section2{
-    height: 40vh;
-    width: 70%;
+    height: 60vh;
+    width: 100%;
     background-color: #28096381;
     position: relative;
 }
@@ -156,7 +162,7 @@ body
     height: 50%;  
     position: relative;
     right: -50%;
-    top: 20%;
+    top:5%;
     background-image: url(image/7198180.png);
     background-size: contain;
     background-position: center;
@@ -167,7 +173,7 @@ body
     width: 40%;
     height: 40%;
     left: 5%;
-    top: 20%;
+    top: 26%;
     position: absolute;
     text-justify:none;
     color: white;
@@ -221,6 +227,8 @@ h3 span{
     position: absolute;
     top: 50%;
     margin: 0 15px;
+
+    padding: 15px 0;
 }
 
 .article2{
@@ -241,6 +249,8 @@ h3 span{
     position: absolute;
     top: 50%;
     margin: 0 15px;
+
+    padding: 15px 0;
 }
 
 .article3{
@@ -259,8 +269,9 @@ h3 span{
     position: absolute;
     top: 50%;
     margin: 0 15px;
-}
 
+    padding: 15px 0;
+}
 .article4{
     position: absolute;
     left: 73%;
@@ -279,6 +290,8 @@ h3 span{
     position: absolute;
     top: 50%;
     margin: 0 15px;
+
+    padding: 15px 0;
 }
 
 .article5{
@@ -300,7 +313,11 @@ h3 span{
     position: absolute;
     top: 50%;
     margin: 0 15px;
+    margin: 0 15px;
+
+    padding: 15px 0;
 }
+
 
 .article6{
     position: absolute;
@@ -317,8 +334,11 @@ h3 span{
 .article6 .description{
     position: absolute;
     top: 50%;
-    padding: 0 5px;
+    margin: 0 15px;
+
+    padding: 15px 0;
 }
+
 .article7{
     position: absolute;
     left: 50%;
@@ -337,8 +357,11 @@ h3 span{
 .article7 .description{
     position: absolute;
     top: 50%;
-    padding: 0 15px;
+    margin: 0 15px;
+
+    padding: 15px 0;
 }
+
 
 .article8{
     position: absolute;
@@ -410,7 +433,7 @@ h3 span{
 .service1{
     height: 30%;
     width: 60%;
-    background-color: #28096381;
+    background-color: #280963;
     color: white;
     font-family: "Trirong", serif; 
     font-size: xx-large;
@@ -488,7 +511,7 @@ h3 span{
 .piece2{
     background-image: url(image/hammer_127px.png);
     background-repeat: no-repeat;
-    width: 30%;
+    width: 9%;
     height: 40vh;
     position: absolute;
     top : 90%;
@@ -512,9 +535,10 @@ footer span{
 
 }
 footer{
-    background-color: #012242;
+    background-color: #280963;
     position: relative;
-    height: 80vh;
+    height: 60vh;
+    top: 100%;
 }
 .fimg
 {
@@ -529,4 +553,152 @@ footer{
 }
 a:hover{
     cursor: pointer;
+}
+h1{
+    color: #280963;
+    font-size: xx-large;
+    text-align: center;
+}
+footer h1{
+    color: white;
+}
+@media screen and (max-width: 970px)
+{
+     .text-sec-1{
+        width: 90%;
+        left: 5%;
+        font-size: 14px;
+     }
+     .text-sec-2{
+        top: 10%;
+        border: none;
+        font-size: 12px;
+     }
+     .section3{
+        height: 200%;
+        position: relative;
+     }
+     footer{
+        position: relative;
+     }
+     .section4{
+        position: relative;
+     }
+     .article{
+        height: 20%;
+        display: inline-block;
+        width: 30%;
+        position: relative;
+        left: 10%;
+        top: 5%;    
+     }
+     .article h5{
+        display: none;
+    
+     }
+
+     .article1{
+        width: 40%;
+     }
+
+    .article2{
+        left: 15%; 
+        width: 40%;
+    }
+    .article3{
+        width: 40%;
+        top: 11%;
+    }
+    .article4{
+        left: 15%; 
+        width: 40%;
+        top: 11%;
+    }
+    .article5{
+        width: 40%;
+        top: 17%;
+    }
+    .article6{
+        left: 15%; 
+        width: 40%;
+        top: 17%;
+    }
+    .article7{
+        width: 40%;
+        top: 23%;
+    }
+    .article8{
+        left: 15%; 
+        width: 40%;
+        top: 23%;
+    }
+    .section4{
+        height: 150vh;
+    }
+    .service1{
+        width: 100%;
+        font-size: 20px;
+        height: 13%;
+    }
+    .service2{
+        width: 100%;
+        font-size: 20px;
+        left: 0%;
+        height: 13%;
+        top: 22%;
+    }
+    .service3{
+        width: 100%;
+        font-size: 20px;
+        top: 50%;
+        height: 13%;
+    }
+    .repair1{
+        position: absolute;
+        top: 18%;
+        left: 5%;
+        width: 45%;
+        background-size: contain;
+       
+    }
+    .repair{
+        position: absolute;
+        width: 45%;
+        top: 18%;
+        left: 54%;
+        background-size: contain;
+    }
+    .sell{
+        position: absolute;
+        top: 60%;
+        left: 3%;
+        width: 45%;
+        background-size: contain;
+    }
+    .sell1{
+        position: absolute;
+        top: 58%;
+        left: 52%;
+        width: 45%;
+        background-size: contain;
+    }
+    .piece{
+        position: absolute;
+        top: 106%;
+        left: 3%;
+        width: 45%;
+        background-size: contain;
+
+    }
+    .piece2{
+        position: absolute;
+        top: 106%;
+        left: 52%;
+        width: 45%;
+        background-size: contain;
+    }
+    footer{
+        font-size: 10px;
+    }
+
 }
