@@ -584,6 +584,9 @@ footer h1{
      .section4{
         position: relative;
      }
+     .section2{
+        height: 20vh;
+     }
      .article{
         height: 20%;
         display: inline-block;
@@ -700,5 +703,350 @@ footer h1{
     footer{
         font-size: 10px;
     }
+    .a{
+        left: 35%;
+        text-decoration: none;
+        margin: 0px 5px;
+        position: relative;
+        top: 40%;
+        font-size: medium;
+        font-weight: 700;
+    }
 
 }
+@media screen and (min-width:1400px) {
+    .text-sec-1{
+        width: 60%;
+        left: 30%;
+        font-size: 30px;
+     }
+     .text-sec-2{
+        top: 10%;
+        border: none;
+        font-size: 30px;
+     }
+     .section3{
+        height: 100%;
+        position: relative;
+     }
+     footer{
+        position: relative;
+     }
+     .section4{
+        position: relative;
+     }
+     .article{
+        height: 50%;
+        display: inline-block;
+        width: 30%;
+        position: relative;
+        left: 10%;
+        top: 5%;    
+     }
+     .article h5{
+        display: none;
+    
+     }
+
+     .article1{
+        width: 20%;
+     }
+
+    .article2{
+        left: 12.5%; 
+        width: 20%;
+    }
+    .article3{
+        left: 15%;
+        width: 20%;
+    }
+    .article4{
+        left: 17.5%; 
+        width: 20%; 
+    }
+    .article5{
+        width: 20%;
+        top: 17%;
+    }
+    .article6{
+        left: 12.5%;  
+        width: 20%;
+        top: 17%;
+    }
+    .article7{
+        left: 15%;
+        width: 20%;
+        top: 17%;
+      ;
+    }
+    .article8{
+        left: 17.5%; 
+        width: 20%;
+        top: 17%;
+
+    }
+    .section4{
+        height: 150vh;
+    }
+    .service1{
+        width: 100%;
+        font-size: 30px;
+        height: 13%;
+    }
+    .service2{
+        width: 100%;
+        font-size: 40px;
+        left: 0%;
+        height: 13%;
+        top: 22%;
+    }
+    .service3{
+        width: 100%;
+        font-size: 40px;
+        top: 50%;
+        height: 13%;
+    }
+    .service1 h2{
+        position: relative;
+        top: 20%;
+    }
+    .service2 h2{
+        position: relative;
+        top: 20%;
+    }
+    .service3 h2{
+        position: relative;
+        top: 20%;
+    }
+    .repair1{
+        position: absolute;
+        top: 18%;
+        left: 5%;
+        width: 45%;
+        background-size: contain;
+       
+    }
+    .repair{
+        position: absolute;
+        width: 45%;
+        top: 18%;
+        left: 54%;
+        background-size: contain;
+    }
+    .sell{
+        position: absolute;
+        top: 60%;
+        left: 3%;
+        width: 45%;
+        background-size: contain;
+    }
+    .sell1{
+        position: absolute;
+        top: 58%;
+        left: 52%;
+        width: 45%;
+        background-size: contain;
+    }
+    .piece{
+        position: absolute;
+        top: 106%;
+        left: 3%;
+        width: 45%;
+        background-size: contain;
+
+    }
+    .piece2{
+        position: absolute;
+        top: 106%;
+    left: 52%;
+        width: 45%;
+        background-size: contain;
+    }
+    footer{
+        height: 50vh;
+        font-size: 34px;
+    }
+
+    }
+
+@media screen and (max-width : 419px) {
+    .section1{
+        height: 70vh;
+        width: 100vw;
+    }
+    .text-sec-1{
+        width:80VW;
+        height: 40% ;
+        left: 10%;
+        font-size: 10px;
+     }
+     .text-sec-1 h1{
+        font-size: 20px;
+     }
+     .text-sec-2{
+        top: 18%;
+        border: none;
+        font-size: 9px;
+     }
+     .section3{
+        height: 100%;
+        position: relative;
+     }
+     footer{
+        position: relative;
+     }
+     .section4{
+        position: relative;
+     }
+     .section2{
+        height: 39vh;
+     }
+     .article{
+        height: 25%;
+        display: inline-block;
+        width: 30%;
+        position: relative;
+        left: 10%;
+        top: 5%; 
+        font-size: 13px;   
+        text-align: center;
+     }
+     .article h5{
+        display: none;
+    
+     }
+
+     .article1{
+        width: 40%;
+     }
+
+    .article2{
+        left: 15%; 
+        width: 40%;
+    }
+    .article3{
+        width: 40%;
+        top: 12%;
+    }
+    .article4{
+        left: 15%; 
+        width: 40%;
+        top: 12%;
+    }
+    .article5{
+        width: 40%;
+        top: 19%;
+    }
+    .article6{
+        left: 15%; 
+        width: 40%;
+        top: 19%;
+    }
+    .article7{
+        width: 40%;
+        top: 25%;
+    }
+    .article8{
+        left: 15%; 
+        width: 40%;
+        top: 25%;
+    }
+    .section4{
+        height: 150vh;
+    }
+    .service1{
+        width: 100%;
+        font-size: 17px;
+        height: 13%;
+    }
+    .service2{
+        width: 100%;
+        font-size: 17px;
+        left: 0%;
+        height: 13%;
+        top: 22%;
+    }
+    .service3{
+        width: 100%;
+        font-size: 17px;
+        top: 50%;
+        height: 13%;
+    }
+    .service1 h2{
+        position: relative;
+        top: 18%;
+    }
+    .service2 h2{
+        position: relative;
+        top: 18%;
+    }
+    .service3 h2{
+        position: relative;
+        top: 18%;
+    }
+    .repair1{
+        position: absolute;
+        top: 18%;
+        left: 5%;
+        width: 45%;
+        background-size: contain;
+       
+    }
+    .repair{
+        position: absolute;
+        width: 45%;
+        top: 18%;
+        left: 54%;
+        background-size: contain;
+    }
+    .sell{
+        position: absolute;
+        top: 60%;
+        left: 3%;
+        width: 45%;
+        background-size: contain;
+    }
+    .sell1{
+        position: absolute;
+        top: 58%;
+        left: 52%;
+        width: 45%;
+        background-size: contain;
+    }
+    .piece{
+        position: absolute;
+        top: 106%;
+        left: 3%;
+        width: 45%;
+        background-size: contain;
+
+    }
+    .piece2{
+        position: absolute;
+        top: 106%;
+        left: 52%;
+        width: 45%;
+        background-size: contain;
+    }
+    footer{
+        font-size: 10px;
+    }
+    .a{
+        left: 35%;
+        text-decoration: none;
+        margin: 0px 5px;
+        position: relative;
+        top: 40%;
+        font-size: medium;
+        font-weight: 700;
+    }
+    .a{
+        left: 20%;
+        text-decoration: none;
+        margin: 0px 5px;
+        position: relative;
+        top: 35%;
+        font-size: 12px;
+        font-weight: 700;
+    }
+ }
