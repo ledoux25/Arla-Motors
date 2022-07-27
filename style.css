@@ -572,7 +572,7 @@ footer h1{
      .text-sec-2{
         top: 10%;
         border: none;
-        font-size: 12px;
+        font-size: 10PX;
      }
      .section3{
         height: 200%;
@@ -585,7 +585,7 @@ footer h1{
         position: relative;
      }
      .section2{
-        height: 20vh;
+        height: 40vh;
      }
      .article{
         height: 20%;
@@ -704,12 +704,12 @@ footer h1{
         font-size: 10px;
     }
     .a{
-        left: 35%;
+        left: 20%;
         text-decoration: none;
         margin: 0px 5px;
         position: relative;
         top: 40%;
-        font-size: medium;
+        font-size: 17px;
         font-weight: 700;
     }
 
